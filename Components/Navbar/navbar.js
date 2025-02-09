@@ -19,7 +19,7 @@ export default function Navbar() {
               <Link
                 href={item.href}
                 className={`text-white px-4 py-2 rounded-md transition-all duration-300 hover:text-blue-600 hover:backdrop-blur-md ${
-                  pathname === item.href && "text-blue-300"
+                  pathname == item.href && "text-blue-400"
                 }`}
               >
                 {item.name}
